@@ -1,0 +1,307 @@
+#Header{
+    background-color: rgb(66, 69, 71);
+    display: flex;
+}
+#Header div{
+    text-transform: uppercase;
+    color: rgb(253, 254, 254);
+    margin-left:50px ;
+    margin-right: 350px;
+}
+#navicationbar{
+    text-transform: capitalize;
+}
+#navicationbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 600px;
+}
+#navicationbar ul :hover{
+    color: #ed7e0e;
+}
+#navicationbar ul li a{
+    color: rgb(253, 254, 254);
+    margin-left: 30px;
+    text-decoration: none;
+   
+}
+#navicationbar ul li a .Home{
+    color: rgb(249, 126, 12);
+}
+#hero{
+    height: 50vh;
+    padding: 50px;
+    text-align: center;
+    background-image: url(../MEDIA/IMG/WhatsApp\ Image\ 2023-08-05\ at\ 10.46.07\ AM.jpeg);
+}
+#hero h3{
+    font-size:50px ;
+}
+#hero p{
+    color: #fcf9f9;
+}
+#hero span{
+    color: rgb(245, 198, 140);
+}
+button{
+    background-color: rgb(68, 61, 61);
+    color:white;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 20px;
+}
+#hestory{
+    display: flex;
+    font-size: 30px;
+}
+#hestory  .rdiv img{
+    width: 50vw;
+     height: 100%;
+}
+#hestory .ldiv{
+    width: 100vw;
+    background-color: rgb(77, 68, 68);
+    text-align: center;
+    padding: 20px;
+}
+#hestory .ldiv span{
+    color: rgb(249, 126, 12);
+}
+#hestory .ldiv button{
+    background-color: rgb(254, 252, 252);
+    color:rgb(1, 0, 0);
+    text-transform: capitalize;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+}
+#services{
+    display: flex;  
+}
+#services div{
+    flex-direction:column ;
+    text-transform: capitalize;
+    text-align: center;
+    width: calc(100% / 3);
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#services div:hover{
+    background-color: #f99703;
+}
+#services div i{
+    font-size: 50px;
+    color: #ffffff;
+}
+#services .meals{
+    background-color:  rgb(249, 126, 12);
+}
+#foot{
+    background-color: rgb(90, 84, 84);
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 20px;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+#foot span{
+    text-transform: uppercase;
+}
+/*about*/
+#Header{
+    background-color: rgb(105, 99, 99);
+    display: flex;
+}
+#Header div h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+}
+#hero1 div{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+#hero1 img{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    float: right;
+    
+  
+}
+#hero1 span{
+    color: #f4c108;
+    text-transform: capitalize;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#hero1 h3{
+    font-size:50px ;
+    color: #000000;
+    text-transform: capitalize;
+    padding-right: 50px;
+}
+#hero1 p{
+    text-transform: uppercase;
+    display: inline;
+    padding-right: 100px;
+}
+#guests img{
+ width: 100vw;
+ height: 500px;
+ transform: -1;
+ position: absolute;
+ height: 85%;
+
+}
+#guests h4{  
+    color: #f8f4f4;
+    text-transform: capitalize;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 550px;
+   font-size: 50px ;
+   
+}
+#guests div .zero .one,#guests div .zero .two{
+    gap: 40px;
+}
+#guests .zero{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-bottom :  calc(100% / 2) ;
+    width: 50%;
+}
+#guests .zero .one{
+   display: flex;
+   background-color: bisque;
+
+   padding: 10px;  
+}  
+#guests .zero .one p{
+    padding: 20px;
+    padding-left: 120px;  
+}
+#guests .zero .one img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+#guests .zero .two{
+    background-color: bisque;
+
+    display: flex;
+    padding: 10px; 
+    margin-top: 50px;
+  
+}
+#guests .zero .two p{
+    padding: 20px;
+    padding-left: 120px;  
+    
+}
+#guests .zero .two img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+#footabout{
+    background-color: rgb(90, 84, 84);
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 20px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 600px;
+    width: 100%;
+}
+#footabout span{
+    text-transform: uppercase;
+}
+/*contact*/
+
+#hero2 h4{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 100px;
+}
+#hero2 h4 span{
+    color: #ed7e0e;
+}
+#hero2 .divHero2{
+    margin-left: 100px;
+    
+}
+#hero2 div input{
+    display: flex;
+    margin: 10px 10px 10px 0;
+    width: 80%;
+}
+.divHero2 div #Message{
+    display: flex;
+    margin: 10px 10px 10px 0;
+    width: 80%;
+}
+.divHero2 button{
+    background-color: rgb(5, 5, 5);
+    color:rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 0;
+}
+#payanat{
+    margin-top:30px ;
+    background-color: rgb(140, 127, 127);
+    display: flex;
+    
+}
+
+#payanat div{
+    flex-direction:column ;
+    text-transform: capitalize;
+    text-align: center;
+    width: calc(100% / 3);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+#payanat div i{
+    font-size: 50px;
+    color: #ffffff;
+
+}
+#payanat div p{
+    font-size: small;
+    color: #ffffff;
+}
+#footcontact{
+    background-color: rgb(90, 84, 84);
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 20px;
+    position: absolute;
+    justify-content: center;
+    width: 96.3%;
+}
+#footcontact span{
+    text-transform: uppercase;
+}
